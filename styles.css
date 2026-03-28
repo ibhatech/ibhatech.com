@@ -215,10 +215,12 @@ a:hover {
     position: relative;
 }
 
-.hero-art svg {
+.hero-art-img {
     width: 120%;
-    max-width: 600px;
+    max-width: 700px;
     height: auto;
+    object-fit: contain;
+    mix-blend-mode: multiply; /* Blends white background into the hero section cleanly */
     animation: float 8s ease-in-out infinite;
     transform-origin: center center;
 }
